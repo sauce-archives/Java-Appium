@@ -20,7 +20,7 @@ public class SampleSauceCheckBoxTest {
     capabilities.setCapability("deviceOrientation", "portrait");
     capabilities.setCapability("appiumVersion", "1.5.3");
 
-    WebDriver driver = new AndroidDriver<>(new URL("http://ondemand.saucelabs.com:80/wd/hub"), capabilities);
+    WebDriver driver = new AndroidDriver<>(new URL(URL), capabilities);
 
     /**
      * Test Actions here...
